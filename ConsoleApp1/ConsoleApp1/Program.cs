@@ -11,10 +11,12 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             double x,s;
-            Console.Write("Введите число");
+            Console.Write("Введите число: ");
             x = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine();
             s = 5 * Math.Sin(x) - 7 * Math.Cos(x);
+            Console.WriteLine("{0:0.00}",s);
+            Console.ReadKey();
         }
     }
 }
