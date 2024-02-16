@@ -10,7 +10,10 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-
+            double x;
+            Console.Write("Введите число");
+            x = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine();
         }
     }
 }
